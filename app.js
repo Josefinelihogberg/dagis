@@ -182,7 +182,7 @@ function updateScores() {
             header.innerText =`${players[1].name} vann!`;
             restartGame();
          } else {
-            header.innerText = "Ni är lika bra!";
+            header.innerText = "Oavgjort!";
             restartGame();
          } 
     }
